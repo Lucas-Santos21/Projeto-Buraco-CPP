@@ -48,6 +48,8 @@ int main()
 				
 			}while(sorteadas[carta]);
 			
+			sorteadas[carta] = true;
+			
 			int baralho_id = carta / 52;
 			int carta_id = carta % 52;
 			
